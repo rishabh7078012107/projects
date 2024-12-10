@@ -1,0 +1,15 @@
+.container{
+    padding: 0 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+  
+  
+  }
+  .container ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+  
+  }

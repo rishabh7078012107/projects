@@ -1,0 +1,17 @@
+.heading h{
+    font-size:48px;
+    font-weight: 800;
+    max-width: 80%;
+
+}
+.contact p{
+    font-weight: 500;
+}
+
+.contact {
+    max-width: 1000px;
+    margin: 0 auto;
+
+
+
+}
