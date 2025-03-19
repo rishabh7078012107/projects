@@ -2,7 +2,7 @@ import styles from './ContactForm.module.css';
 import Button from './Button';
 import { LuMessageSquareMore } from "react-icons/lu";
 import { IoMdCall } from "react-icons/io";
-import { MdDisplaySettings, MdEmail } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 import { useState } from 'react';
 
 
@@ -10,7 +10,7 @@ const ContactForm = () => {
 
   const [name,setName] = useState("Rishabh");
   const [email,setEmail] = useState("risdndo@Button.com");
-  const [text,Text] = useState("Subscribe to watch");
+  const [text,setText] = useState("Subscribe to watch");
 
   const onSubmit = (event)=>{
     event.preventDefault();
