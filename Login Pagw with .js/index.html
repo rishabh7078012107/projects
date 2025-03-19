@@ -1,0 +1,40 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="login-page" class="page">
+<h2>
+    Login Page
+</h2>
+
+<form id="login-form">
+
+    <input type="email" placeholder="Enter your email here" required id="email"> <br>
+    <input type="password" placeholder="Enter your password here" required id="password"> <br>
+
+    <button type="submit">Login</button>
+    <p id="login-error" style="color: red;"></p>
+
+
+</form>
+
+
+        </div>
+        
+
+        <!-- Profile page -->
+
+        <div id="profile-page" class="page" style="display: none;">
+        <h2>Welcome,<span id="profile-email"></span>!</h2>
+        <button id="logout-btn">Logout</button>
+    </div>
+    <script src="index.js"></script>
+
+
+    </body>
+    </html>
